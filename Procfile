@@ -1,1 +1,1 @@
-web: python bot.py runserver 0.0.0.0:5000
+web: gunicorn -b 0.0.0.0:$PORT bot:app
