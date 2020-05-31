@@ -31,7 +31,7 @@ def bot():
         url = contents['url']
         msg.media(url)
         responded = True
-    if 'cat' in incoming_msg or 'pussy' in incoming_msg:
+    if 'cat' in incoming_msg:
         # return a cat pic
         b=msg.media('https://cataas.com/cat')
         responded = True
